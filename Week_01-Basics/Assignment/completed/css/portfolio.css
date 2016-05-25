@@ -23,10 +23,8 @@
         color: #000000;
         background-color:eaeaea;
       }
-      p.one {
-        padding: 0px 0px 0px 60px;
-      }
-      nav-header {
+ 
+      header {
         float: left;
         font-family: 'Open Sans', Arial, Helvetica, san-serif;
         font-size: 23px;
@@ -54,7 +52,7 @@
      a:hover {
        background-color: #fff200;
      }
-     nav-footer {
+     footer {
         float: left;
         font-family: 'Open Sans', Arial, Helvetica, san-serif;
         font-size: 18px;
@@ -70,4 +68,18 @@
 
 ::-moz-selection {
     background: #fff200;
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+    margin: 0px;
+    float: left;
+    width: 320px;
+    height: 210px;
 }

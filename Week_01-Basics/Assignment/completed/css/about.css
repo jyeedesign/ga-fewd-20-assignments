@@ -26,7 +26,7 @@
       p.one {
         padding: 0px 0px 0px 60px;
       }
-      nav-header {
+      header {
         float: left;
         font-family: 'Open Sans', Arial, Helvetica, san-serif;
         font-size: 23px;
@@ -54,7 +54,7 @@
      a:hover {
        background-color: #fff200;
      }
-     nav-footer {
+     footer {
         float: left;
         font-family: 'Open Sans', Arial, Helvetica, san-serif;
         font-size: 18px;
