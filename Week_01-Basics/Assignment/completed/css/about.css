@@ -54,6 +54,13 @@
      a:hover {
        background-color: #fff200;
      }
+     a:visited {
+       color: #77787b;
+     }
+     a:active {
+        color: #000000;
+     }
+     
      footer {
         float: left;
         font-family: 'Open Sans', Arial, Helvetica, san-serif;
