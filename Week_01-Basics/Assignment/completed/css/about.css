@@ -75,9 +75,6 @@
         word-spacing: 20px;
     }
 
-::-moz-selection {
-    background: #fff200;
-}
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;

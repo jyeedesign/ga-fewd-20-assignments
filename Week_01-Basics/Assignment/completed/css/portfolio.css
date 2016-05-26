@@ -71,10 +71,6 @@
         padding-right: 0px;
         word-spacing: 20px;
     }
-
-::-moz-selection {
-    background: #fff200;
-}
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
@@ -83,9 +79,18 @@ html {
   box-sizing: inherit;
 }
 
-img {
-    margin: 0px;
+div.img {
+    margin: 10px;
     float: left;
-    width: 320px;
-    height: 210px;
+    width: 325px;
+    padding: 15px;
+
+}
+
+div.desc {
+    font-family: 'Open Sans', Arial, Helvetica, san-serif;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 18px;
 }
