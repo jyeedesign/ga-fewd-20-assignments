@@ -5,21 +5,21 @@
       }
       h1 {
         font-family: 'Open Sans', Arial, Helvetica, san-serif;
-        font-size: 34px;
+        font-size: 2.125rem;
         font-weight: Bold 700;
-        letter-spacing: 1px;
-        line-height: 20px;
+        letter-spacing: .0625rem;
+        line-height: 1.25rem;
         text-align: left; 
         float: left;
-        margin: 10px;
+        margin: .625rem;
         color: #000000;
       }
       body {
         font-family: 'Open Sans', Arial, Helvetica, san-serif;
-        font-size: 28px;
+        font-size: 1.75rem;
         font-weight: normal;
-        line-height: 42px;
-        letter-spacing: 1px;
+        line-height: 2.625rem;
+        letter-spacing: .0625rem;
         color: #000000;
         background-color:eaeaea;
       }
@@ -27,22 +27,23 @@
       header {
         float: left;
         font-family: 'Open Sans', Arial, Helvetica, san-serif;
-        font-size: 23px;
+        font-size: 1.4375rem;
         font-weight: normal;
-        letter-spacing: 1px;
+        letter-spacing: .0625rem;
         display: block;
-        line-height: 48px;
-        margin-left: 30px;
-        word-spacing: 20px;
+        line-height: 3rem;
+        margin-left: 1.875rem;
+        word-spacing: 1.25rem;
 
       }
-      hr {
-        border-style: solid;
-        border-width: 1px;
+    .border {
+      border-style: solid;
+      border-width: .0625rem;
+      border-color: #000000;
       }
 
      p {
-       margin-bottom: 20px;
+       margin-bottom: 1.25rem;
        clear: both;
      }
      a:link {
@@ -61,15 +62,15 @@
      footer {
         float: left;
         font-family: 'Open Sans', Arial, Helvetica, san-serif;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: normal;
-        letter-spacing: 1px;
+        letter-spacing: .0625rem;
         display: block;
-        line-height: 30px;
-        margin-left: 60px;
-        margin-top: 18px;
-        padding-right: 0px;
-        word-spacing: 20px;
+        line-height: 1.875rem;
+        margin-left: 3.75rem;
+        margin-top: 1.125rem;
+        padding-right: 0rem;
+        word-spacing: 1.25rem;
     }
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -80,7 +81,7 @@ html {
 }
 
 div.img {
-    margin: 10px;
+    margin: .9375rem;
     float: left;
     width: 325px;
     padding: 15px;
@@ -90,7 +91,7 @@ div.img {
 div.desc {
     font-family: 'Open Sans', Arial, Helvetica, san-serif;
     text-align: left;
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 18px;
+    font-size: .875rem;
+    letter-spacing: .0625rem;
+    line-height: 1.125rem;
 }
