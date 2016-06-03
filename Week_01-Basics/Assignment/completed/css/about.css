@@ -11,7 +11,7 @@
         line-height: 1.25rem;
         text-align: left; 
         float: left;
-        margin: .625rem;
+        margin: 10px;
         color: #000000;
       }
       body {
@@ -24,7 +24,7 @@
         background-color:eaeaea;
       }
       p.one {
-        padding: 0rem 0rem 0rem 3.75rem;
+        padding: 0px 0px 0px 60px;
       }
       header {
         float: left;
@@ -33,7 +33,7 @@
         font-weight: normal;
         letter-spacing: .0625rem;
         display: block;
-        line-height: 48px;
+        line-height: 3rem;
         margin-left: 30px;
         word-spacing: 1.25rem;
 
