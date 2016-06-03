@@ -93,7 +93,7 @@ article#coloradolisting1 div.description {
 
 article#coloradolisting1 div.articlepic,
 article#coloradolisting1 div.description {
-  float: right;  
+  float: left;  
 }
 
 article#coloradolisting2 div.description {
