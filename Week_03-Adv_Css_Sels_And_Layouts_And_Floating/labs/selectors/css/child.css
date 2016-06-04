@@ -1,7 +1,30 @@
 
 /** CSS RULES GO IN HERE */
+section > div > p > a {
+	background-color:#20b2aa;
+	font-family:Gill Sans Extrabold, sans-serif;
+	font-size:4rem;
+	color:#191970;
+	text-transform:uppercase;
+	letter-spacing:.6rem;
+	text-decoration:none;
+}
 
+section > div a {
+	background-color:#87cefa;
+	font-family:Gill Sans Extrabold, sans-serif;
+	font-size:4rem;
+	color:#191970;
+	text-transform:uppercase;
+	letter-spacing:.6rem;
+	text-decoration:none;
+}
 
+section p > a.mylink {
+	background-color:#ffe4e1;
+	font-family:Gill Sans Extrabold, sans-serif;
+	font-size:4rem;
+}
 
 
 
