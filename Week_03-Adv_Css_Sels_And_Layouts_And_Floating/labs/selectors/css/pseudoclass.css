@@ -1,5 +1,26 @@
 
 /** CSS RULES GO IN HERE */
+h1 {
+  font-size:5rem;
+  font-color:#000000;
+
+}
+a:hover {
+  background-color:#dadc2b;
+}
+
+a:link {
+  font-size:5rem;
+  color:#000000;
+}
+
+article.myarticle:first-child {
+	background-color:#dadc2b;
+	font-size:5rem;
+	color:#FFFFFF;
+	font-family: "Times New Roman", Times, serif;
+	font-weight:bold;
+}
 
 
 

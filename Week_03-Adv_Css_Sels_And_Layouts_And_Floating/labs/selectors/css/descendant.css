@@ -1,7 +1,31 @@
 
 /** CSS RULES GO IN HERE */
+section p#para1 a {
+	color: #c0c0c0;
+	font-family:Gill Sans Extrabold, sans-serif;
+	font-size:3rem;
+	letter-spacing:.0625rem;
+	font-weight:bold;
+	text-decoration:none;
+}
 
+section p#para2 a {
+	color: #808080;
+	font-family:Gill Sans Extrabold, sans-serif;
+	font-size:3rem;
+	letter-spacing:.0625rem;
+	font-weight:bold;
+	text-decoration:none;
+}
 
+section p#para3 a {
+	color: #000000;
+	font-family:Gill Sans Extrabold, sans-serif;
+	font-size:3rem;
+	letter-spacing:.0625rem;
+	font-weight:bold;
+	text-decoration:none;
+}
 
 
 
