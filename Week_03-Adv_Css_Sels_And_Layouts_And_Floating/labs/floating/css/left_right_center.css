@@ -1,6 +1,9 @@
 
 section#mycontent > article {
   background-color: #FFFF00;
+  margin-right:auto;
+  margin-left:auto;
+  width:600px;
 }
 
 
