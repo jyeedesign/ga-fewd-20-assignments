@@ -1,112 +1,133 @@
 /* CSS Document */
+
 body {
-    background-color: #FFFFFF;
-    font-family: 'Open Sans', Arial, Helvetica, san-serif;
-    font-weight: normal;
+	background-color:#FFFFFF;
+	font-family: 'Open Sans', Arial, Helvetica, san-serif;
+	font-weight:normal;
 }
 
 header {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
+	letter-spacing:.1875rem;
+	font-size:.875rem;
 }
 
 h1 {
-    text-align: center;
-    font-family: 'Anton', Arial, Helvetica, san-serif;
-    font-size: 4.6875rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-transform: uppercase;
-    color: #3d3121;
+	text-align: center;
+	font-family: 'Anton', Arial, Helvetica, san-serif;
+	font-size: 4.6875rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	color: #3d3121;
+}
+
+h2 {
+	text-align: left;
+	font-family: 'Anton', Arial, Helvetica, san-serif;
+	font-weight:bold;
+	font-size:1rem;
+	color: #3d3121;
+	text-transform:uppercase;
+	letter-spacing:.1875rem;
+}
+
+h3 {
+	text-align: right;
+	font-family: 'Anton', Arial, Helvetica, san-serif;
+	font-weight:bold;
+	font-size:1rem;
+	color: #3d3121;
+	text-transform:uppercase;
+	letter-spacing:.1875rem;
 }
 
 header, article, footer {
-    border: 1px solid #3d3121;
+	border: 1px solid #3d3121;
 }
 
 footer {
-    padding: 10px;
+	padding: 10px;
 }
 
 footer nav a {
-    display: block;
-    background-color: #3d3121;
-    color: #ffffff;
-    font-family: 'Open Sans', Arial, Helvetica, san-serif;
-    font-weight: bold;
-    font-size: .8125rem;
-    line-height: 1.375rem;
-    text-transform: uppercase;
-    letter-spacing: .125rem;
-    padding: 10px;
-    border-radius: 5px;
-    min-width: 100px;
-    text-align: center;
-    text-decoration: none;
+	display:block;
+	background-color:#3d3121;
+	color:#ffffff;
+	font-family:'Open Sans', Arial, Helvetica, san-serif;
+	font-weight:bold;
+	font-size:.8125rem;
+	line-height:1.375rem;
+	text-transform:uppercase;
+	letter-spacing:.125rem;
+	padding:10px;
+	border-radius:5px;
+	min-width:100px;
+	text-align:center;
+	text-decoration:none;
 }
 
 footer nav a:hover {
-    background-color: #7d6544;
-}
-
-a#navprevious {
-    float: left;
+	background-color:#7d6544;
 }
 
 a#navhome {
-    width: 1%;
-    margin-left: auto;
-    margin-right: auto;
+	width:1%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+a#navprevious {
+	float:left;
 }
 
 a#navnext {
-    float: right;
+	float:right;
 }
 
 article {
-    margin-bottom: 15px;
-    padding: 15px;
+	margin-bottom:15px;
+	padding:15px;
 }
 
-div.articlepic {
-    width: 400px;
+div.articlepic{
+	width:400px;
 }
 
-div.description {
-    width: 50%;
-    min-width: 400px;
-    margin-left: 25px;
-    margin-right: 25px;
+div.description{
+	width:50%;
+	min-width:400px;
+	margin-left:25px;
+	margin-right:25px;
 }
 
 div.description p {
-    font-size: .9375rem;
-    line-height: 1.375rem;
+	font-size:.9375rem;
+	line-height:1.375rem;
 }
 
 div.description p:first-child {
-    margin-top: 0px;
+	margin-top:0px;
 }
 
 article#coloradolisting1 div.description {
-    text-align: left;
-}
-
-article#coloradolisting1 div.articlepic,
-article#coloradolisting1 div.description {
-  float: left;  
+	text-align:left;
 }
 
 article#coloradolisting2 div.description {
-    text-align: right;
+	text-align:right;
 }
 
-article#coloradolisting2 div.articlepic,
-article#coloradolisting2 div.description {
-  float: right;
+article#coloradolisting1 div.articlepic, article#coloradolisting1 div.description {
+	float:right;
+}
+
+article#coloradolisting2 div.articlepic, article#coloradolisting2 div.description {
+	float:left;
 }
 
 .clearfix {
-    clear: both;
+	clear:both;
 }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
