@@ -1,0 +1,87 @@
+/* CSS Document */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color:#000000;
+}
+
+#galaxy {
+	position:absolute;
+
+}
+
+#galaxy > #sun {
+	border-radius:100%;
+	background: repeating-radial-gradient(#456afc, #456afc 5px, #000000 5px, #000000 10px);
+	width:600px;
+	height:600px;
+	position:absolute;
+
+}
+
+#galaxy > #axis {
+
+}
+
+#galaxy > .planets {
+	border-radius:100%;
+	position:absolute;
+
+}
+
+#galaxy > #planet1 {
+	background: repeating-radial-gradient(#c4e6ee, #c4e6ee 5px, #000000 5px, #000000 10px);
+	width:30px;
+	height:30px;
+
+}
+
+#galaxy > #planet2 {
+	background: repeating-radial-gradient(#eb7035, #eb7035 5px, #000000 5px, #000000 10px);
+	width:60px;
+	height:60px;
+
+}
+
+#galaxy > #planet3 {
+	background: repeating-radial-gradient(#888888, #888888 5px, #000000 5px, #000000 10px);
+	width:90px;
+	height:90px;
+
+}
+
+#galaxy > #planet4 {
+	background: repeating-radial-gradient(#daa45e, #daa45e 5px, #000000 5px, #000000 10px);
+	width:120px;
+	height:120px;
+
+}
+
+#galaxy > #planet5 {
+	background: repeating-radial-gradient(#e4d29f, #e4d29f 5px, #000000 5px, #000000 10px);
+	width:150px;
+	height:150px;
+
+
+}
+
+#galaxy > #planet6 {
+	background: repeating-radial-gradient(#ea6207, #ea6207 5px, #000000 5px, #000000 10px);
+	width:180px;
+	height:180px;
+
+}
+
+#galaxy > #planet7 {
+	background: repeating-radial-gradient(#d2d2d2, #d2d2d2 5px, #000000 5px, #000000 10px);
+	width:210px;
+	height:210px;
+
+}
