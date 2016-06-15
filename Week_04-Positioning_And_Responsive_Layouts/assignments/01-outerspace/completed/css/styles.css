@@ -8,26 +8,38 @@ html {
   box-sizing: inherit;
 }
 
+
 body {
 	background-color:#000000;
 }
 
 #galaxy {
-	position:absolute;
+	width:600px;
+	height:600px;
+	transform: translate(50%, 30%);
 
 }
 
 #galaxy > #sun {
 	border-radius:100%;
 	background: repeating-radial-gradient(#456afc, #456afc 5px, #000000 5px, #000000 10px);
-	width:600px;
-	height:600px;
 	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:3;
 
 }
 
 #galaxy > #axis {
-
+  height: 700px;
+  border: 1.5px solid #c4e6ee;
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  z-index: 2;
+  transform: rotateZ(15deg);
 }
 
 #galaxy > .planets {
@@ -38,22 +50,31 @@ body {
 
 #galaxy > #planet1 {
 	background: repeating-radial-gradient(#c4e6ee, #c4e6ee 5px, #000000 5px, #000000 10px);
-	width:30px;
-	height:30px;
+	width:50px;
+	height:50px;
+	top:250px;
+	left:585px;
+	z-index: 2;
 
 }
 
 #galaxy > #planet2 {
-	background: repeating-radial-gradient(#eb7035, #eb7035 5px, #000000 5px, #000000 10px);
-	width:60px;
-	height:60px;
+	background: repeating-radial-gradient(#c4e6ee, #c4e6ee 5px, #000000 5px, #000000 10px);
+	width:90px;
+	height:90px;
+	top:300px;
+	left:450px;
+	z-index:7;
 
 }
 
 #galaxy > #planet3 {
-	background: repeating-radial-gradient(#888888, #888888 5px, #000000 5px, #000000 10px);
-	width:90px;
-	height:90px;
+	background: repeating-radial-gradient(#c4e6ee, #c4e6ee 5px, #000000 5px, #000000 10px);
+	width:150px;
+	height:150px;
+	top:290px;
+	left:220px;
+	z-index:8;
 
 }
 
