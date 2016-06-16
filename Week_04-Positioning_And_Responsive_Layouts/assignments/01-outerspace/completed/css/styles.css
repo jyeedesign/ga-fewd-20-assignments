@@ -9,14 +9,21 @@ html {
 }
 
 
+html {
+  height: 100%;
+}
+
 body {
+	margin:0px;
+	padding:0px;
+	height:100%;
 	background-color:#000000;
 }
 
 #galaxy {
 	width:600px;
 	height:600px;
-	transform: translate(50%, 30%);
+	transform: translate(50%, 50%);
 
 }
 
@@ -50,10 +57,10 @@ body {
 
 #galaxy > #planet1 {
 	background: repeating-radial-gradient(#c4e6ee, #c4e6ee 5px, #000000 5px, #000000 10px);
-	width:50px;
-	height:50px;
-	top:250px;
-	left:585px;
+	width:40px;
+	height:40px;
+	top:240px;
+	left:650px;
 	z-index: 2;
 
 }
@@ -63,46 +70,58 @@ body {
 	width:90px;
 	height:90px;
 	top:300px;
-	left:450px;
+	left:470px;
 	z-index:7;
 
 }
 
 #galaxy > #planet3 {
 	background: repeating-radial-gradient(#c4e6ee, #c4e6ee 5px, #000000 5px, #000000 10px);
-	width:150px;
-	height:150px;
+	width:170px;
+	height:170px;
 	top:290px;
-	left:220px;
+	left:240px;
 	z-index:8;
 
 }
 
 #galaxy > #planet4 {
-	background: repeating-radial-gradient(#daa45e, #daa45e 5px, #000000 5px, #000000 10px);
-	width:120px;
-	height:120px;
+	background: repeating-radial-gradient(#c4e6ee, #c4e6ee 5px, #000000 5px, #000000 10px);
+	width:110px;
+	height:110px;
+	top:240px;
+	left:100px;
+	z-index:5;
 
 }
 
 #galaxy > #planet5 {
-	background: repeating-radial-gradient(#e4d29f, #e4d29f 5px, #000000 5px, #000000 10px);
-	width:150px;
-	height:150px;
+	background: repeating-radial-gradient(#c4e6ee, #c4e6ee 5px, #000000 5px, #000000 10px);
+	width:80px;
+	height:80px;
+	top:180px;
+	left:20px;
+	z-index:5;
 
 
 }
 
 #galaxy > #planet6 {
-	background: repeating-radial-gradient(#ea6207, #ea6207 5px, #000000 5px, #000000 10px);
-	width:180px;
-	height:180px;
+	background: repeating-radial-gradient(#c4e6ee, #c4e6ee 5px, #000000 5px, #000000 10px);
+	width:50px;
+	height:50px;
+	top:140px;
+	left:0px;
+	z-index:2;
 
 }
 
 #galaxy > #planet7 {
-	background: repeating-radial-gradient(#d2d2d2, #d2d2d2 5px, #000000 5px, #000000 10px);
-	width:210px;
-	height:210px;
+	background: repeating-radial-gradient(#c4e6ee, #c4e6ee 5px, #000000 5px, #000000 10px);
+	width:25px;
+	height:25px;
+	top:70px;
+	left:80px;
+	z-index:1;
 
 }
