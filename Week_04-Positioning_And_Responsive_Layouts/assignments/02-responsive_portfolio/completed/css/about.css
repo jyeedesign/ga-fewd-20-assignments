@@ -1,3 +1,12 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 /* CSS Document */
       * {
         margin: 0;
@@ -76,13 +85,6 @@
         word-spacing: 1.25rem;
     }
 
-/* apply a natural box layout model to all elements, but allowing components to change */
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 /* ----------- iPhone 6 ----------- */
 
@@ -96,19 +98,19 @@ header {
   margin-left:34%;
   margin-right:25%;
   font-family: 'Open Sans', Arial, Helvetica, san-serif;
-  font-size: .95em;
+  font-size: 2.5rem;
   font-weight: normal;
   letter-spacing: .0625rem;
   display: block;
   line-height: 3.25rem;
   word-spacing: 1.25rem;
   padding-top:20px;
-        }
+}
 
 h1 {
   font-family: 'Open Sans', Arial, Helvetica, san-serif;
   font-size: 3rem;
-  font-weight: Bold 700;
+  font-weight: bold;
   letter-spacing: .0625rem;
   line-height: 1rem;
   margin-left:35%;
