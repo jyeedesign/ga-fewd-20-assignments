@@ -4,11 +4,11 @@
 4. 212
 5. 4
 6. Never execute
-7. Infinitely 
+7. Infinite loop 
 8. True
-9. S=True  T=False  U=True 
+9. S=True  T=False  U=True Bonus answer: Or 
 10.
-11.
+11. 
 12. .5
 13. 22
 14. 49
