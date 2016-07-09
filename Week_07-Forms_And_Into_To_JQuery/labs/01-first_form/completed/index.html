@@ -7,9 +7,109 @@
   </head>
   <body>
   <form>
-  	<input type="text" value="Jenny Yee" placeholder="Enter your username" />
-  	<input type="password" value="12345" placeholder="Enter your password" />
-  	<input type="submit" value="Create Account" />
+  
+<fieldset>
+  <label for="username">Username</label>
+  	<input 
+  		id="username"
+  		name="username"
+  		minlength="3"
+  		maxlength="6"
+  		type="text"
+  		value="johndoe"
+  		placeholder="Enter your username" />
+</fieldset> 		
+   
+
+<fieldset>
+   <label for="password">Password</label>
+  	<input 
+  		id="password"
+  		name="password"
+  		type="password"
+  		placeholder="Enter your password" required />
+
+ </fieldset> 		
+
+ <fieldset>
+ <label for="bio">Bio</label>		
+	<textarea placeholder="Enter your bio" id="bio" name="bio">
+Hi my name is Jenny.
+  </textarea>
+
+</fieldset>
+
+  
+<fieldset>  	
+  <label for="animal">Animals</label>	
+
+  	<select id="animal" name="animal" size="4" multiple="multiple">
+  <optgroup label="Dogs">
+  	  <option value="pitbull">Pitbull</option>
+  	  <option value="yorkshire_terrier">Yorkshire Terrier</option>
+  	  </optgroup>
+  <optgroup label="Birds">
+  	  <option value="parrot" selected="selected">Parrot</option>
+  	  <option value="pidgeon">Pidgeon</option>
+  	  </optgroup>
+  	</select>
+ </fieldset>
+ 
+
+<fieldset>
+<label for="checkbox">Checkbox</label>	
+  <input 
+  	type="checkbox" 
+  	id="newsletter" 
+  	name="newsletter" 
+  	checked="checked />
+  
+  <label for="pizza">Pizza</label>
+  <input
+  	type="radio"
+  	id="food_pizza"
+  	name="food" 
+  	value="pizza" />
+   
+  <label for="burritos">Burritos</label>
+   <input
+  	type="radio"
+  	id="food_burritos"
+  	name="food" 
+  	value="burritos" />
+  
+  <label for="tofu">Tofu</label>
+  <input
+  	type="radio"
+  	id="food_tofu"
+  	name="food" 
+  	value="tofu" />
+
+<label for="age">Age</label>	
+<input 
+	type="number"
+	min="5"
+	max="20"
+	placeholder="Enter your age"
+	id="age"
+	name="age" />
+
+</fieldset>	
+
+<fieldset>
+<label for="bio">Birthday</label>	
+<input
+	id="birthday"
+	name="birthday"
+	type="datetime-local" />
+</fieldset>
+
+
+
+<fieldset>
+  <input type="submit" value="Create Account" />
+</fieldset>
+
   </form>
   </body>
 </html>
