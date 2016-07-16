@@ -1,4 +1,4 @@
-![GeneralAssemb.ly](img/icons/FEWD_Logo.png)
+                                                                        ![GeneralAssemb.ly](img/icons/FEWD_Logo.png)
 
 # FEWD
 ## Week 6
