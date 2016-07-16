@@ -16,21 +16,49 @@ html {
 }
 
 body {
-  font-family:'Exo', Arial, Helvetica, Sans-Serif;
-  font-size:100px;
-  opacity:0.6;
-  font-weight:normal;
-  line-height:220px;
-  color:#ffffff;
   background: url("../images/sky_bkg.jpg");
   background-repeat:no-repeat;
   background-size:cover;
-  margin: 0;
-  padding: 0;
-
-}
-h1 {
-  margin:-20px;
 }
 
+#grid {
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 800px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+}
 
+#grid .diamond {
+  width: 50%;
+  height: 50%;
+  border: 2px solid #ffffff;
+  float: left;
+  transform: rotate(45deg);
+  background-color: #2b88c9;
+  opacity:0.4;
+}
+
+#instructions {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-family:'Exo', Arial, Helvetica, Sans-Serif;
+  font-size:3rem;
+  line-height:4rem;
+  opacity:0.6;
+  font-weight:normal;
+}
+
+#instructions h2 {
+  padding: 0px;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.clearit {
+  clear: both;
+}
