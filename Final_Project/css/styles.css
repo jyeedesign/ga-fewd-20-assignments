@@ -51,6 +51,7 @@ body {
 }
 
 nav {
+  white-space: nowrap;
   font-family: 'Raleway', Arial, Helvetica, Sans-serif;
   font-weight: normal;
   letter-spacing: .0625rem;
@@ -63,22 +64,21 @@ nav {
   right: 0px;
   margin: 0px;
   width: 100%;
-  height: 50px;
   background-color: #FFFFFF;
   z-index: 9999;
   text-align: center;
-  padding: 0px 30px 30px 30px;
   display: inline;
 
 }
 
-nav a:hover {
+nav a:hover,
+nav a:active {
   color:#bcbec0;
-     }
+}
+
 a,
 a:link,
-a:visited,
-a:active {
+a:visited {
   text-decoration: none;
   color: #939598;
 }     
